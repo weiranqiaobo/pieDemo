@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/fengfang"
+        android:shortcutId="toast"
+        android:shortcutLongLabel="@string/fengfang"
+        android:shortcutShortLabel="@string/fengfang">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.hencoder.hencoderpracticedraw1.FengfangActivity"
+            android:targetPackage="com.hencoder.hencoderpracticedraw1" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/weiran"
+        android:shortcutId="toast1"
+        android:shortcutLongLabel="@string/weiran"
+        android:shortcutShortLabel="@string/weiran">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.hencoder.hencoderpracticedraw1.WeiranActivity"
+            android:targetPackage="com.hencoder.hencoderpracticedraw1" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
